@@ -1,0 +1,10 @@
+#PARCEL
+
+-dev build
+Local server
+hmr-Ho Module Replacelemnt
+Caching
+ OPtimization
+ Minification
+ diffferential buldling
+ Error handling

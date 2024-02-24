@@ -1,12 +1,20 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 // const heading=React.createElement("div",{
 //     id:"ball"
 // },"teriuhw");
 // const root=ReactDOM.createRoot(document.getElementById("parent"));
 // root.render(heading);
 
-const parent=React.createElement("div",{id:"parent"},[
-React.createElement("div",{id:"child"},
-[React.createElement("h1",{},"this is the grandchild da"),React.createElement("h2",{},"this is the grandchild da")]),React.createElement("div",{id:"child"},
-[React.createElement("h1",{},"this is the grandchild da"),React.createElement("h2",{},"this is the grandchild da")])]);
-const root=ReactDOM.createRoot(document.getElementById("parent"));
-root.render(parent); 
+
+const Heading2=()=><div ClassName="header1" >
+    <Title></Title>
+    <h1>Namate JavaScript</h1>
+    </div>
+const heading=React.createElement("h1",{id:"heading"},"Namate Javascript");
+const root=ReactDOM.createRoot(document.getElementById("parent"))
+
+const Title=()=>{
+    return (<h1>This is the Title</h1>)
+}
+root.render(<Heading2/>);
