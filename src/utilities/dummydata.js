@@ -1,0 +1,60 @@
+export let dataofdummy=[{
+    res_id: 18843699,
+    img:"https://t4.ftcdn.net/jpg/05/17/27/83/360_F_517278381_npC0cMTTo14wDSQMHtbM5qI1BN0jhEpB.jpg",
+    name: "The Bier Library",
+    cuisine_string: "American, Pizza, European, North Indian, Bar Food, Oriental, Desserts, BBQ",
+    rating: {
+      has_fake_reviews: 0,
+      aggregate_rating: 4.5,
+      rating_text: "4.5",
+      rating_subtitle: "Excellent",
+      "rating_color": "3F7E00",
+      votes: "13217",
+      "subtext": "REVIEWS",
+      "is_new": false,
+    }},
+    {
+        res_id: 18843692,
+        img:"https://www.tasteofhome.com/wp-content/uploads/2017/09/Citrus-Cranberry-Pie_EXPS_PBZ16_29181_D05_25_3b.jpg",
+        name: "The American Pie",
+        cuisine_string: "American, Pizza, European, North Indian, Bar Food, Oriental, Desserts, BBQ",
+        rating: {
+          has_fake_reviews: 0,
+          "aggregate_rating": 4.7,
+          rating_text: "4.5",
+          rating_subtitle: "Vey Good",
+          "rating_color": "3F7E00",
+          votes: "132",
+          "subtext": "REVIEWS",
+          "is_new": false,
+        }}
+        ,{
+            res_id: 18843695,
+            img:"https://b.zmtcdn.com/data/dish_photos/8a6/f1739f80aaf5b9f7b0cd1fa2ef6998a6.jpeg",
+            name: "KFC",
+            cuisine_string: "American, Pizza, European, North Indian, Bar Food, Oriental, Desserts, BBQ",
+            rating: {
+              has_fake_reviews: 0,
+              aggregate_rating: "3.0",
+              rating_text: "4.5",
+              rating_subtitle: "Bad",
+              "rating_color": "3F7E00",
+              votes: "13217",
+              "subtext": "REVIEWS",
+              "is_new": false,
+            }},{
+                res_id: 18843693,
+                name: "McDonalds",
+                img:"https://content.jdmagicbox.com/comp/bangalore/w4/080p1220510904m4g7w4/catalogue/mcdonald-s-family-restaurant-indiranagar-bangalore-fast-food-restaurants-c96qe.jpg",
+                cuisine_string: "American, Pizza, European, North Indian, Bar Food, Oriental, Desserts, BBQ",
+                rating: {
+                  has_fake_reviews: 0,
+                  aggregate_rating: 4.5,
+                  rating_text: "4.5",
+                  rating_subtitle: "Excellent",
+                  "rating_color": "3F7E00",
+                  votes: "13217",
+                  "subtext": "REVIEWS",
+                  "is_new": false,
+                }}
+];
